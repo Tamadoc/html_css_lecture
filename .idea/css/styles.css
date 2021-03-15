@@ -1,0 +1,160 @@
+body, h1, nav {
+    width: 100%;
+}
+
+body {
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    position: absolute;
+    min-height: 100vh;
+    padding-bottom: 6vh;
+    background-color: lightsteelblue;
+    font: 16px Verdana, sans-serif;
+}
+
+/* Header styles */
+header {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+
+nav a, .right-link {
+    text-decoration: none;
+    padding: 20px;
+    font-weight: bold;
+    color: darkslateblue;
+    border-radius: 4px;
+}
+
+nav a:hover, .right-link:hover {
+    background-color: steelblue;
+    color: #fff;
+}
+
+.right-link {
+    float: right;
+    width: 130px;
+}
+
+hr {
+    width: 95%;
+}
+
+/* Main section styles */
+#main {
+    width: 80%;
+    margin: 0 auto 20px;
+    display: flex;
+}
+
+#articles {
+    display: flex;
+}
+
+#articles img {
+    display: block;
+    margin: auto;
+    border: 3px darkslateblue double;
+    border-radius: 50%;
+}
+
+article {
+    padding: 20px;
+}
+
+article h3 {
+    text-align: center;
+}
+
+/* Sidebar styles */
+aside {
+    background-color: #af8bda;
+    min-width: 20%;
+    margin-bottom: 50px;
+    padding: 0 20px;
+    border: 3px blueviolet double;
+    border-radius: 10px;
+}
+
+aside ul li {
+    margin-top: 30px;
+    font-weight: bold;
+}
+aside ol li {
+    margin-top: 10px;
+    font-weight: normal;
+}
+
+aside li span {
+    font-weight: bold;
+}
+
+/* Form page styles */
+#form {
+    width: 500px;
+    margin: 50px auto 0;
+    padding: 20px;
+    background-color: lavender;
+    border: 3px #999 double;
+}
+.form-header {display: flex; align-items: center;}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input, select {
+    display: block;
+    width: 100%;
+    line-height: 1.5em;
+}
+
+select {
+    line-height: 1.5em;
+    padding: 4px;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: 25px auto;
+}
+
+button {
+    width: 48%;
+    padding: 10px;
+    background-color: slateblue;
+    color: white;
+    font-size: 1.2em;
+}
+
+input:focus, select:focus {
+    background-color: #ccc;
+}
+
+button:focus, button:hover {
+    outline-offset: 8px;
+    outline-color: darkslateblue;
+    background-color: darkslateblue;
+}
+
+/* Footer styles */
+footer {
+    position: absolute;
+    bottom: 0;
+    height: 3vh; width: 100%;
+    padding: 30px 0;
+    background-color: darkslateblue;
+    color: #fff;
+
+}
+
+address {
+    text-align: center;
+    padding-left: 40px;
+}
